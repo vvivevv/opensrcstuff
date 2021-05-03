@@ -1,0 +1,22 @@
+<html>
+  <head>
+      <title>Form Example</title>
+  </head>
+  <body>
+    <form method="post" action="/">
+        <fieldset>
+            <legend>Cowin centre check</legend>
+            <ul>
+                <li>Search By Pincode <input name='pincode' id='pincode'>
+                </li>
+                <li>Enter Date <input name='currentdate' id='currentdate' type="date" data-date-format="DD-MM-YYYY">
+                </li>
+
+            </ul><input type='submit' value='Submit Form'>
+        </fieldset>
+    </form>
+
+    <p>{{message}}</p>
+
+  </body>
+</html>
